@@ -1,0 +1,40 @@
+
+//------------------------------ПЕРВОНАЧАЛЬНЫЕ НАСТРОЙКИ-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//переменные
+$wc: 1024px; //стандартная ширина контейнера
+$wm: 767px;//ширина мобилок
+$yel: #f1ac11;
+
+
+//шрифты (юзай fff)
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/Regular.woff2') format('woff2'), url('../fonts/Regular.woff') format('woff'), url('../fonts/Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/Bold.woff2') format('woff2'), url('../fonts/Bold.woff') format('woff'), url('../fonts/Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+//вруби теперь шрифт этот
+body {
+  font-family: 'Myriad', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+//------------------------------НЕ ТРОГАТЬ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@import '_BASICS';
+@import '_IMPORTS';
+@import '_UI';
